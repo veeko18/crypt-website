@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Creepy hacker gamer font stack (CSS font-family) */
+:root{
+  --font-heading: "Share Tech Mono","JetBrains Mono","Fira Code","IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --font-body:    "JetBrains Mono","Fira Code","IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --font-accent:  "VT323","Share Tech Mono","JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --primary-color: #39FF14;
+  --secondary-color: #0B0F14;
+  --third-color: #BFC3C7;
+  --fourth-color: #FF2D95;
+  --white: #FFFFFF;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: var(--third-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-between;
+    padding: 40px;
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
+.logo-section {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: row;
+    color: var(--white);
+    font-size: 12px;
+}
+
+.menu {
+    gap: 40px;
+}
+
+.button-section {
+    margin-left: 30px;
+}
+
+#button {
+    background-color: var(--fourth-color);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
